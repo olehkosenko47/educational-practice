@@ -68,6 +68,7 @@ flowchart TD
     A[Репозиторій] --> B[Гілка master]
     B --> T[text.txt]
     B1[maksym] --> L1PY[main.py]
+    A --> B1
     B --> L1PY[main.py]
     B --> L3PY[lab3.py]
     B --> BC[block.csv]
